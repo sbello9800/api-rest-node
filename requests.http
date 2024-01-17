@@ -1,0 +1,30 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Copito Denieve",
+    "age" : "5",
+    "email" : "copito@gmail.com"
+}
+
+###
+
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+
+GET http://localhost:9000/api/users/ HTTP/1.1
+
+###
+PUT  http://localhost:9000/api/users/65636378185147d29a0e8415 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Copito Gay",
+    "age" : "6",
+    "email" : "copitog@gmail.com"
+}
+
+###
+DELETE  http://localhost:9000/api/users/65a76233de6641337ead67c0 HTTP/1.1
